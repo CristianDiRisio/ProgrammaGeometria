@@ -1,0 +1,14 @@
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\bin\Debug\net8.0\ProgrammaGeometria.exe
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\bin\Debug\net8.0\ProgrammaGeometria.deps.json
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\bin\Debug\net8.0\ProgrammaGeometria.runtimeconfig.json
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\bin\Debug\net8.0\ProgrammaGeometria.dll
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\bin\Debug\net8.0\ProgrammaGeometria.pdb
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\obj\Debug\net8.0\ProgrammaGeometria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\obj\Debug\net8.0\ProgrammaGeometria.AssemblyInfoInputs.cache
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\obj\Debug\net8.0\ProgrammaGeometria.AssemblyInfo.cs
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\obj\Debug\net8.0\ProgrammaGeometria.csproj.CoreCompileInputs.cache
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\obj\Debug\net8.0\ProgrammaGeometria.dll
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\obj\Debug\net8.0\refint\ProgrammaGeometria.dll
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\obj\Debug\net8.0\ProgrammaGeometria.pdb
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\obj\Debug\net8.0\ProgrammaGeometria.genruntimeconfig.cache
+C:\Users\dirisio.22086\Desktop\Informatica\ProgrammaGeometria\obj\Debug\net8.0\ref\ProgrammaGeometria.dll
