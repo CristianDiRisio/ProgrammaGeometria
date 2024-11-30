@@ -1,12 +1,12 @@
-﻿using System.ComponentModel.Design;
-
-do { 
+using System.ComponentModel.Design;
+ 
 char menu;
 do
 {
     Console.WriteLine("Scegli il tipo di figura da calcolare:");
     Console.WriteLine("1: Poligono");
     Console.WriteLine("2: Cerchio / Ovale");
+    Console.WriteLine("3: Esci");   
     Console.WriteLine();
 
     string scelta;
@@ -256,7 +256,7 @@ do
             Console.WriteLine("Inserisci un numero che esiste nella lista!!!");
             break;
     }
-} while (menu == '3');
+} while (menu != '3');
 
 static double AreaPoligonoRegolare(int numeroLati, double lunghezzaLato)
 {
@@ -303,5 +303,3 @@ static double AreaTriangoloIrregolare(double ProiezioneCateti1, double Proiezion
 
 }
 
-
-} while (true);
