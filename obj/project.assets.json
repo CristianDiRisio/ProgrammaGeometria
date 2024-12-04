@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dirisio.22086\\.nuget\\packages\\": {}
+    "C:\\Users\\Belometti.22036\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dirisio.22086\\Desktop\\Informatica\\ProgrammaGeometria\\ProgrammaGeometria.csproj",
-      "projectName": "ProgrammaGeometria",
-      "projectPath": "C:\\Users\\dirisio.22086\\Desktop\\Informatica\\ProgrammaGeometria\\ProgrammaGeometria.csproj",
-      "packagesPath": "C:\\Users\\dirisio.22086\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dirisio.22086\\Desktop\\Informatica\\ProgrammaGeometria\\obj\\",
+      "projectUniqueName": "C:\\Users\\Belometti.22036\\source\\repos\\GeometriCristian\\GeometriCristian.csproj",
+      "projectName": "GeometriCristian",
+      "projectPath": "C:\\Users\\Belometti.22036\\source\\repos\\GeometriCristian\\GeometriCristian.csproj",
+      "packagesPath": "C:\\Users\\Belometti.22036\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Belometti.22036\\source\\repos\\GeometriCristian\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dirisio.22086\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Belometti.22036\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
