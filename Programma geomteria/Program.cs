@@ -1,4 +1,4 @@
-﻿// Programma geometrico per calcolare Aree e Perimetri per quasi tutti i poligoni.
+// Programma geometrico per calcolare Aree e Perimetri per quasi tutti i poligoni.
 // Versione: 1.0.0
 // Collaboratori: Cristian Di Risio, Luca Belometti, Ye Yuhao.
 
@@ -252,6 +252,7 @@ internal class Program
                         Console.WriteLine("2: Triangolo");
                         Console.WriteLine("3: Trapezio");
                         Console.WriteLine("4: Parallelogramma");
+                        Console.WriteLine("5: Poligono irregolare");
 
                         Console.WriteLine();
 
@@ -439,6 +440,23 @@ internal class Program
                                 Console.WriteLine($"L'area del parallelogramma di base {baseParallelogramma} cm e altezza {altezzaParallelogramma} cm è: {AreaRls7} cm^2");
                                 Console.WriteLine("");
                                 Console.WriteLine($"Il perimetro del parallelogramma di base {baseParallelogramma} cm e altezza {altezzaParallelogramma} cm è: {PerimetroRls7} cm");
+                                break;
+                            case '5':
+                                int Nlati;
+                                double lunghezzeLati;
+                                double PerimetroRls8;
+                                bool controllo19;
+                                bool controllo18;
+
+                                do
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Yellow;
+                                    Console.WriteLine("Inserisci il numero di lati del poligono:");
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                    controllo18 = int.TryParse(Console.ReadLine(), out Nlati);
+                                } while (controllo18 == false);
+
+                                PerimetroRls8 = PerimetroPoligonoIrregolare(Nlati);
                                 break;
                             default:
                                 Console.WriteLine("Inserisci un numero che esiste nella lista!!!");
@@ -712,6 +730,32 @@ internal class Program
         static double areamm (double area)
         {
             return area * 100;
+        }
+
+        static double PerimetroPoligonoIrregolare(int Nlati)
+        {
+            double[] lunghezzaLati = new double[Nlati];
+            for (int i = 0; i < Nlati; i++)
+            {
+                bool controllo;
+                Console.ForegroundColor = ConsoleColor.White;
+                do
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Inserisci la lunghezza del lato " + (i + 1) + " del poligono");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    controllo = double.TryParse(Console.ReadLine(), out lunghezzaLati[i]);
+                } while (controllo == false);
+            }
+
+            double perimetro = 0;
+
+            for (int i = 0; i < Nlati; i++)
+            {
+                perimetro += lunghezzaLati[i];
+            }
+
+            return perimetro;
         }
     }
 }
